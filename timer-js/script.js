@@ -1,6 +1,10 @@
+import photo from "./photo.jpg"
+import style from "./index.scss"
+
 let timerInput = document.getElementById("time");
 let buttonRun = document.getElementById("button")
 let timerShow = document.getElementById("timer");
+
 
 buttonRun.addEventListener('click', function() {
     timeMinut = parseInt(timerInput.value) * 60
